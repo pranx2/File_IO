@@ -40,4 +40,5 @@
                printf("%c",ch);
             fscanf(text , "%c" , &ch);
                printf("%c",ch);
+      return 0;
    }
