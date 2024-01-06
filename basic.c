@@ -27,6 +27,8 @@
          fscanf(text_new,"%c",&ch);
          printf("%c",ch);
 
+         fclose(text_new);
+
             char ch2;
             fscanf(text , "%c" , &ch);
                printf("%c",ch);
@@ -41,4 +43,7 @@
             fscanf(text , "%c" , &ch);
                printf("%c",ch);
       return 0;
+
+               fclose(text);
+      return 0;         
    }
